@@ -50,7 +50,7 @@ ROOT_URLCONF = 'vocal_school.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / "bstemplates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
