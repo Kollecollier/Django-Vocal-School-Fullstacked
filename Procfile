@@ -1,0 +1,1 @@
+web: gunicorn vocal_school.wsgi
