@@ -1,12 +1,13 @@
 {% extends 'base.html' %}
+{% load static %}
 
 
 {% block content %}
 <section class="container py-5"  style="margin-block:200px;" id="team">
     <div class="row text-center ">
         <div class="col-lg-8 mx-auto">
-            <h1 class="display-4">Our Team</h1>
-            <p class="lead">Rely on established and competent professionals.
+            <h1 class="display-4">The 4 Steps</h1>
+            <p class="lead">Rely on established and competent professional.
             </p>
         </div>
     </div>
@@ -16,33 +17,33 @@
 
             <!-- Team item -->
             <div class="col-xl-3 col-sm-6 mb-5">
-                <div class="bg-white rounded shadow-sm py-5 px-4"><img src="./img/team1.jpg" alt="" class=" mh-100img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                    <h5 class="mb-0">Dr Sai</h5>
-                    <span class="small text-uppercase text-muted">Consultant anesthesiologist</span>
+                <div class="bg-white rounded shadow-sm py-5 px-4"><img src="{% static 'img/img1.jpg' %}" "alt="image of me" class=" mh-100img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                    <h5 class="mb-0">Step 1</h5>
+                    <span class="small text-uppercase text-muted">Introduction</span>
                 </div>
             </div><!-- End -->
 
             <!-- Team item -->
             <div class="col-xl-3 col-sm-6 mb-5">
-                <div class="bg-white rounded shadow-sm py-5 px-4"><img src="/img/team2.jpg" alt="" class=" mh-100 rounded-circle mb-3 img-thumbnail shadow-sm">
-                    <h5 class="mb-0">Dr Samuel </h5>
-                    <span class="small text-uppercase text-muted">Consultant cardiothoracic</span>
+                <div class="bg-white rounded shadow-sm py-5 px-4"><img src="{% static 'img/img2.jpg' %}" "alt="image of me" alt="" class=" mh-100 rounded-circle mb-3 img-thumbnail shadow-sm">
+                    <h5 class="mb-0">Step 2</h5>
+                    <span class="small text-uppercase text-muted">Making a Vocal Map</span>
                 </div>
             </div><!-- End -->
 
             <!-- Team item -->
             <div class="col-xl-3 col-sm-6 mb-5">
-                <div class="bg-white rounded shadow-sm py-5 px-4"><img src="/img/team3.jpg" alt="" class=" mh-100img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                    <h5 class="mb-0">Dr Sarra</h5>
-                    <span class="small text-uppercase text-muted">Consultant dermatologist</span>
-                </div>
-            </div><!-- End -->
+              <div class="bg-white rounded shadow-sm py-5 px-4"><img src="{% static 'img/img3.jpg' %}" "alt="image of me" alt="" class=" mh-100 rounded-circle mb-3 img-thumbnail shadow-sm">
+                  <h5 class="mb-0">Step 3</h5>
+                  <span class="small text-uppercase text-muted">Your First Vocal lession</span>
+              </div>
+           </div><!-- End -->
 
             <!-- Team item -->
             <div class="col-xl-3 col-sm-6 mb-5">
-                <div class="bg-white rounded shadow-sm py-5 px-4"><img src="/img/team4.png" alt="" class=" mh-100img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                    <h5 class="mb-0">DR John</h5>
-                    <span class="small text-uppercase text-muted">Consultant Obstetrician</span>
+                <div class="bg-white rounded shadow-sm py-5 px-4"><img src="{% static 'img/img4.jpg' %}" alt="image of me" class=" mh-100img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                    <h5 class="mb-0">Step 4</h5>
+                    <span class="small text-uppercase text-muted">Show Your New Skills</span>
                 </div>
             </div><!-- End -->
         </div>
@@ -55,57 +56,9 @@
   <div class="bg-primary text-center py-5 mb-4">
       <div class="container">
         <h1 class="fw-light text-white">Services</h1>
-        <p class="overview">We provide compassionate and expert care to our community. You are at the center of everything we do. Let us be your healthcare partner.</p>
+        <p class="overview">I provide compassionate and professional guide to your new vocal range. You are at the center of everything we do.</p>
       </div>
     </div>
-  <div class="container">
-    <div class="row">
-      <!-- Team Member 1 -->
-      <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="/img/service1.jpg" class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <h5 class="card-title mb-0">Primary Care</h5>
-            <div class="card-text text-black-50">Your personalized medical professionals.</div>
-          </div>
-        </div>
-      </div>
-      <!-- Team Member 2 -->
-      <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="/img/service2.jpg" class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <h5 class="card-title mb-0">Dermatology</h5>
-            <div class="card-text text-black-50">Your skin care made easy.</div>
-          </div>
-        </div>
-      </div>
-      <!-- Team Member 3 -->
-      <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="/img/service3.jpg" class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <h5 class="card-title mb-0">Team Member</h5>
-            <div class="card-text text-black-50">Web Developer</div>
-          </div>
-        </div>
-      </div>
-      <!-- Team Member 4 -->
-      <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-0 shadow">
-          <img src="/img/service4.jpg" class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <h5 class="card-title mb-0">PrEP Therapy</h5>
-            <div class="card-text text-black-50">Stay safe if you are at high exposure of HIV.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /.row -->
-  
-  </div>
-</section>
-
 <section class="text-center conatiner" style="margin-block:200px;" id="reviews">
     <h2>Satisfied Patients</h2>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -144,23 +97,33 @@
     <div class="container">
         <div class="row text-center">
           
-            <div class="col-sm-6">
+            <div class="col-sm-4">
             <div class="contact-detail-box">
-              <i class="far fa-envelope text-colored fa-3x"></i>
+              <i class="fa-brands fa-facebook"></i>
               <h4>Get In Touch</h4>
               <abbr title="Phone">P:</abbr> (123) 456-7890<br>
               E: <a href="mailto:email@email.com" class="text-muted">email@email.com</a>
             </div>
           </div><!-- end col -->
+
+          <div class="col-sm-4">
+            <div class="contact-detail-box">
+              <i class="far fa-envelope text-colored fa-3x"></i>
+              <h4>Get In Touch</h4>
+              <abbr title="Phone">P:</abbr> (0046) 735407684<br>
+              E: <a href="kristoffer.collier@live.com" class="text-muted">email@email.com</a>
+            </div>
+          </div><!-- end col -->
+
   
-          <div class="col-sm-6">
+          <div class="col-sm-4">
             <div class="contact-detail-box">
               <i class="fa fa-map-marker fa-3x text-colored"></i>
-              <h4>Our Location</h4>
+              <h4>My Location</h4>
   
               <address>
-              795 Folsom Ave, Suite 600<br>
-              San Francisco, CA 94107<br>
+              Järnvägsgatan 8B<br>
+              30249, Swedem, Halmstad<br>
             </address>
             </div>
           </div><!-- end col -->
@@ -174,7 +137,7 @@
         <div class="row">
           <div class="col-sm-6">
             <div class="contact-map">
-              <iframe src="https://www.google.com/maps/embed/v1/place?q=New+York+University&amp;key=AIzaSyBSFRN6WWGYwmFi498qXXsD2UwkbmD74v4" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width: 100%; height: 360px;"></iframe>
+              <iframe src="https://maps.google.com/maps?q=j%C3%A4rnv%C3%A4gsgatan%208b&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width: 100%; height: 360px;"></iframe>
             </div>
           </div><!-- end col -->
   
