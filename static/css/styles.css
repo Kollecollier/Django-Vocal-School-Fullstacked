@@ -7,6 +7,12 @@
     min-height: 1000px;
     font-family:'Source Sans Pro', sans-serif;
   }
+
+.step-image {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
   
   @media (min-width:768px) {
     .header {
@@ -32,14 +38,18 @@
   }
   
   .header .navbar .navbar-brand {
-    font-weight:bold;
     color:inherit;
+    color: inherit;
+    font-family: 'Inspiration', cursive;
+    font-size: xxx-large;
+    text-decoration: underline;
   }
-  
+
   .header .navbar .navbar-brand:hover {
     color:#f0f0f0;
   }
-  
+
+
   .header .navbar .navbar-collapse {
     border-top:1px solid rgba(255,255,255,0.3);
     margin-top:.5rem;
@@ -300,7 +310,6 @@
   .carousel-indicators li.active {		
     background: #888;		
   }
-
 
 
 
