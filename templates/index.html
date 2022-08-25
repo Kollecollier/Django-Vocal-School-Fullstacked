@@ -3,7 +3,7 @@
 
 
 {% block content %}
-<section class="container py-5"  style="margin-block:200px;" id="team">
+<section class="container py-5"  style="margin-block:200px; color: white;" id="team">
     <div class="row text-center ">
         <div class="col-lg-8 mx-auto">
             <h1 class="display-4">The 4 Steps</h1>
@@ -60,10 +60,13 @@
   <div class="bg-primary text-center py-5 mb-4">
       <div class="container">
         <h1 class="fw-light text-white">Services</h1>
-        <p class="overview">I provide compassionate and professional guide to your new vocal range. You are at the center of everything we do.</p>
+        <p class="overview" style="color: white;">I provide compassionate and professional guide to your new vocal range. You are at the center of everything we do.
+          For a long time i have mastered the vocal range for heavy metal music and now have the experience to share my love of this and teach more people to do so.
+          You will have access to my socal accounts and i will be avalible around the clock to help you in any way you need.
+        </p>
       </div>
     </div>
-<section class="text-center conatiner" style="margin-block:50px;" id="reviews">
+<section class="text-center conatiner" style="margin-block:50px; color: white;" id="reviews">
     <h2>Satisfied Customer</h2>
     <div class="">
       <img src="{% static 'img/img5.jpg' %}" alt="image of me" alt="" class=" mh-100 rounded-circle mb-3 img-thumbnail shadow-sm step-image">
@@ -71,31 +74,8 @@
       <p class="overview">S.Lövinger</p>
       
   </div>	
-    {% comment %} <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Carousel indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>   
-        <!-- Wrapper for carousel items -->
-        <div class="carousel-inner">		
-            <div class="carousel-item active">
-                <div class="img-box"><img src="{% static 'img/patient1.jpg' %}" alt=""></div>
-                <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
-                <p class="overview">Michael Holz</p>
-            </div>
-            <div class="carousel-item">
-                <div class="img-box"><img src="{% static 'img/patient2.jpg' %}" alt=""></div>
-                <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum idac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
-                <p class="overview">Antonio Moreno</p>
-            </div>
-        	
-        </div> {% endcomment %}
-
     </div>
-
-</section>
+      </section>
 
 
 <section id="contact" class="card m-4 p-4">
@@ -141,42 +121,10 @@
         <div class="row">
           <div class="col-sm-6">
             <div class="contact-map">
-              <iframe src="https://maps.google.com/maps?q=j%C3%A4rnv%C3%A4gsgatan%208b&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width: 100%; height: 360px;"></iframe>
+              <iframe src="https://maps.google.com/maps?q=j%C3%A4rnv%C3%A4gsgatan%208b&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width: 200%; height: 360px;"></iframe>
             </div>
-          </div><!-- end col -->
-  
-          <!-- Contact form -->
-          <div class="col-sm-6">
-            <form role="form" name="ajax-form" id="ajax-form" method="post" class="form-main">
-  
-              <div class="form-group">
-                <label for="name2">Name</label>
-                <input class="form-control" id="name2" name="name" type="text" placeholder="name">
-                <div class="error" id="err-name" style="display: none;">Please enter name</div>
-              </div> <!-- /Form-name -->
-  
-              <div class="form-group">
-                <label for="email2">Email</label>
-                <input class="form-control" id="email2" name="email" type="text" placeholder="email">
-                <div class="error" id="err-emailvld" style="display: none;">E-mail is not a valid format</div> 
-              </div> <!-- /Form-email -->
-  
-              <div class="form-group">
-                <label for="message2">Message</label>
-                <textarea class="form-control" id="message2" name="message" rows="5" placeholder="message">Message</textarea>
-  
-                <div class="error" id="err-message" style="display: none;">Please enter message</div>
-              </div> <!-- /col -->
-  
-              <div class="row">            
-                  <button type="submit" class="btn btn-primary btn-shadow btn-rounded w-md" id="send">Send</button>
-                </div> <!-- /col -->
-              </div> <!-- /row -->
-  
-            </form> <!-- /form -->
-          </div> <!-- end col -->
-  
-        </div> <!-- end row -->
+          </div>
+          <!-- end col -->
             
       </div>
 </section>

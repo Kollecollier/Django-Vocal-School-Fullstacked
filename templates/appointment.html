@@ -57,17 +57,24 @@
         outline-width: 0
     }
 {% endblock style %}
+
 {% block content %}
-    <!-- <div class="card notification-card notification-invitation">
+
+    {% if message %}
+     <div class="card notification-card notification-invitation">
         <div class="card-body">
-                <div class="card-title">Jane invited you to join </div>
+        {% for message in message %}
+                <div class="card-title">{{message}}</div>
+            {% endfor %}
         </div>
-      </div> -->
+      </div>
+
+    {% endif %}
 
     <div class="container-fluid px-1 py-5 mx-auto">
         <div class="row d-flex justify-content-center">
             <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
-                <h3>
+                <h3 style="color: white;">
                     Book an appointment
                 </h3>
                 <p class="blue-text">Use the following form to contact us and request an appointment..</p>

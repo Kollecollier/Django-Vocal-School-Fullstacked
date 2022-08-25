@@ -1,108 +1,148 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Extream Vocal School Django P4
+## This a my first business based framework.
+### The idea with this business page is to make it possible for everyone in every and all ages to learn the basic requierments and essential skills to bring there vocal range to a new level.
+### This idea can be used for all sorts of businesses of any kind!
+Please take the time to check this read me file and get an understanding of the website.
+![You can find the live version here](add link)
 
-Welcome Kollecollier,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661416981/ifgwx4t8dgswluvzfrmr.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+# Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+ - ## The Nav Bar
+    ![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661417758/ok5wp65kpfbaxvhhskbn.png)
+- This Navigation bar is clean and simple and more or less says it'self!
 
-`python3 -m http.server`
+  -  Upon pressing "The 4 steps", you are redirected down the this area shown in the below image, with what steps are being taken for your journey.
+  
+    ![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661419293/owv6ayffqn94h9lh3dp7.png) 
 
-A blue button should appear to click: _Make Public_,
+ -  Upon pressing "Services", you are redirected down the this area shown in the below image, were information about my service and what you can expect from me as a tutor.
+    ![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661419486/hgehwxt0ppu84zus3rev.png)
 
-Another blue button should appear to click: _Open Browser_.
+-  Upon pressing "Testimonials", you are redirected down the this area shown in the below image, were student's have left there reveiw's and such.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    ![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661419807/ufhswbkgono5eyevomfj.png)
 
-A blue button should appear to click: _Make Public_,
+-  And last on the bottom of the page, i have a contact area with my nr,email,location and a link to my social facebook page.
 
-Another blue button should appear to click: _Open Browser_.
+    ![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661420099/zhj5zmoy7tilmbasa2vw.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- ## Let's go back to the top!
+ - Also at the top, if you are not logged in, the nav bar will display 2 options, "Register" & "Login"!
 
-To log into the Heroku toolbelt CLI:
+   ![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661422059/c6r0kymfjlas6zvadblx.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+ ### When you have registered or logged in it, the navbar will change:
+  - After login or register, the navbar will appear like this:
+   ![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661422250/tia2rpa2lvydrv7aos9j.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+   - You now have the alernative to "manage" and "logout".
 
-------
+- ## Let's try to Book an appointment!
+![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661422507/wx0rjwvmo066114ugnxp.png)
 
-## Release History
+###  After pressing this btn, You will enter a booking process!
+    The booking is in a type of a from, you enter your name email and phone and also your request!
+![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661422803/y9dlfcrh5pvrtevr8vq6.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+   After you fill out the form as seen below!
+   ![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661423031/qrj9pgchm1ebu6vsabvc.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+   Your request will be sent to the admin page or confirmation in the admin panel:
+   ![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661423168/l5cacuwwmlvyokpkcspp.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- ## Manegment
+  - If you are a registered user on this website you will have access to the "Manage" option on the nav bar, pressing this will bring you to a appoinrment management page. (This page is not fully functional at this point)
+  ![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661423534/soikvktxnvnnnss8xuvz.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+ - ## Storage
+    - Cloudinary
+    - Static files
+    - also an img file for bigger images
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- ## Future Improvments
+  As a developer it's important to see your errors and understand and see what can be better and can be improved! This is my take on future improvments!
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+    - Invest more time in reading documentation for django to optimze the user experience and user interface to get the best out of django!
+    - Make a code that give's you a comformation on bookings.
+    - Connect a email api to make it easier to reach out and contact the company (except for just facebook and phone calls)
+    - The sign in / sign out / register pages have no styling but are fully funtional, in the future i would be wise to invest more time into learing template styling.
+    - Improving the management opitons.
+    - Adding a notification code that let's admin's know when there has been a new appointment request.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- ## Future Features
+    - And a media sektion that supply the student with basic techniques for vocals.
+    - Make a better more satisfing GUI that is more personal and modifyed
+    - Improve the management and manipulation for users.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+# Testing
+ ###  Testing with TestCase:
+   - Here are my detailed view test's:
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+   - Index test:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+   ![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661434246/pxmnce1lu7qux0vsgnpz.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+   - Appointment test:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+   ![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661434839/jrd9d8vmafa6epndylct.png)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+   - Manage Appointment test:
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+   ![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661435023/jrrmy62qdxzmosaztzni.png)
 
-------
 
-## FAQ about the uptime script
+  - All view test's:
 
-**Why have you added this script?**
+    ![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661436638/a1lypvnvrole1mbev5fw.png)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+    The code for view testing can be found in here: vocal_school/test_views.py!
 
-**How will this affect me?**
+    ###  Testing Html with (https://validator.w3.org/):
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+    - HTML show's 3 errors, but no negative impact on the frontend, the reason is that the tester isnt not aware that the "{{% %}}" is being used.
+    ![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661437423/cxvaihem0r14elkotz7l.png)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+    ###  Testing CSS with (https://validator.w3.org/):
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+    - HTML show's 3 errors, but no negative impact on the frontend, the reason is that the tester isnt not aware that the "{{% %}}" is being used.
+    ![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661437423/cxvaihem0r14elkotz7l.png)
 
-**So….?**
+  - ## Manuall testing:
+   - During the coding process i have manually check the github problem terminal and resolves all issues as i have gone along.
+   - I have also run the code in pep8 muliple times and corrected issues on the way.
+   - Some error's under the process such as missing docstring's stil remain's on some pages.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+  - Used language:
+      - HTML
+      - CSS
+      - Javascript
+      - Python
+  -  Extentions:
+      - Bootstrap
+      - Django
+      - Jquery
 
-**Can I opt out?**
+- ## ADMIN CREDENTIALS
+  - username: CIadmin
+  - password: qwed1234
+ 
+ # Bugs
+  - There is a remaing CSS bug and styling bug for the log out/ sign up and register pages but the pages are fully functional.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+ # Deployment
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+ - This project was deployed via github's terminal to heroku using the git add command, after pushing to github, it was deployed to heroku
 
----
+  - The code can be found on github [Here](https://github.com/Kollecollier/Pyhton_portfolio3)!
 
-Happy coding!
+ # Credits & Content
+ - [Template's and Idea for the project](https://www.youtube.com/watch?v=3_3q_dE4_qs&ab_channel=SelmiTech)
+
+ - [Code Institue](https://codeinstitute.net/se/) for deployment
