@@ -125,11 +125,7 @@ Please take the time to check this read me file and get an understanding of the 
       - Bootstrap
       - Django
       - Jquery
-
-- ## ADMIN CREDENTIALS
-  - username: CIadmin
-  - password: qwed1234
- 
+      
  # Bugs
   - There is a remaing CSS bug and styling bug for the log out/ sign up and register pages but the pages are fully functional.
 
