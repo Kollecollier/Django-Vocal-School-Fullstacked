@@ -35,8 +35,7 @@ Please take the time to check this read me file and get an understanding of the 
 
    ![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661422059/c6r0kymfjlas6zvadblx.png)
 
- ### When you have registered or logged in it, the navbar will change:
-  - After login or register, the navbar will appear like this:
+ ### When you have registered or logged in it, the navbar will change: - After login or register, the navbar will appear like this:
    ![This is an image](https://res.cloudinary.com/kolle1993/image/upload/v1661422250/tia2rpa2lvydrv7aos9j.png)
 
    - You now have the alernative to "manage" and "logout".
@@ -140,9 +139,11 @@ Please take the time to check this read me file and get an understanding of the 
 
  - This project was deployed via github's terminal to heroku using the git add command, after pushing to github, it was deployed to heroku
 
-  - The code can be found on github [Here](https://github.com/Kollecollier/Pyhton_portfolio3)!
+  - The code can be found on github [Here](https://github.com/Kollecollier/FSFW)
+
+  - The Heroku live app can be found [Here](https://vox1.herokuapp.com/) 
 
  # Credits & Content
  - [Template's and Idea for the project](https://www.youtube.com/watch?v=3_3q_dE4_qs&ab_channel=SelmiTech)
 
- - [Code Institue](https://codeinstitute.net/se/) for deployment
+ - [Code Institue](https://codeinstitute.net/se/) for deployment and other step's taken for this project.
